@@ -1,0 +1,68 @@
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ─── Virtual Environments ─────────────────────────────────────
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# ─── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Machine Learning Models (too large for Git) ──────────────
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+models/
+
+# ─── Data Files ───────────────────────────────────────────────
+data/raw/
+data/interim/
+*.csv
+*.parquet
+*.feather
+# Exception: keep sample/demo data if small
+!data/sample/*.csv
+
+# ─── Secrets & Environment ────────────────────────────────────
+.env
+.env.local
+.env.*
+secrets.toml
+config.yaml
+config.json
+
+# ─── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ─── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs & Reports ───────────────────────────────────────────
+logs/
+*.log
+mlruns/
+reports/generated/
