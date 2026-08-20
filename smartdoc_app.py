@@ -5,7 +5,7 @@ SmartDoc AI — Intelligent Document Assistant
 ============================================================
 Author      : Portfolio Project
 Compliance  : UK GDPR Compliant (Local Processing, No External APIs)
-Framework   : Streamlit + HuggingFace Transformers + LangChain
+Framework   : Streamlit + HuggingFace Transformers + FAISS
 Purpose     : Upload documents → AI-powered summarisation,
               Q&A, key point extraction, and sentiment analysis.
               Zero external API calls — privacy-first architecture.
@@ -159,7 +159,6 @@ with st.sidebar:
     st.markdown("""
     **Tech Stack**
     - 🤗 HuggingFace Transformers
-    - 🔗 LangChain (RAG Pipeline)
     - 📊 Sentence Transformers
     - 🏗️ FAISS Vector Store
     - 🤖 BART / RoBERTa / DistilBERT

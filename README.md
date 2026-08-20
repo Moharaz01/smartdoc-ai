@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co)
-[![LangChain](https://img.shields.io/badge/LangChain-0.1%2B-1C3C3C)](https://langchain.com)
 [![FAISS](https://img.shields.io/badge/FAISS-Vector%20DB-0052CC)](https://faiss.ai)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-FF4B4B?logo=streamlit)](https://streamlit.io)
 [![Privacy](https://img.shields.io/badge/100%25%20Local-Zero%20API%20Calls-green)](.)
@@ -35,7 +34,6 @@ The "100% local" aspect is the critical differentiator: most AI document tools (
 | RAG (Retrieval-Augmented Generation) | The most in-demand LLM engineering skill in UK enterprise AI |
 | Transformer models (BART, BERT, DistilBERT) | Shows you understand modern NLP architecture, not just API calls |
 | Vector databases (FAISS) | Core infrastructure for all production RAG systems |
-| LangChain framework | Used in 60%+ of enterprise LLM applications |
 | Privacy-by-design | Critical differentiator — most candidates ignore this |
 | Extractive + abstractive summarisation | Shows depth — understanding both approaches, not just one |
 | Local LLM deployment | Growing skill requirement as enterprises move away from cloud-only AI |
@@ -242,7 +240,7 @@ The first time you run the app, it will automatically download the four HuggingF
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/[your-username]/smartdoc-ai.git
+git clone https://github.com/Moharaz01/smartdoc-ai.git
 cd smartdoc-ai
 
 # 2. Create virtual environment
@@ -280,7 +278,7 @@ The app opens at `http://localhost:8501`.
 git init
 git add smartdoc_app.py requirements_smartdoc.txt README_SmartDoc.md .gitignore
 git commit -m "Initial commit: SmartDoc AI document intelligence"
-git remote add origin https://github.com/[your-username]/smartdoc-ai.git
+git remote add origin https://github.com/Moharaz01/smartdoc-ai.git
 git push -u origin main
 
 # Then deploy at share.streamlit.io
@@ -347,8 +345,7 @@ project3_smartdoc_ai/
 │   └── Privacy & GDPR page
 │
 ├── requirements_smartdoc.txt     ← All dependencies
-├── README_SmartDoc.md            ← This file
-├── DEPLOY_SmartDoc.md            ← Extended deployment guide
+├── README.md                     ← This file
 ├── GDPR_SmartDoc.md              ← Standalone GDPR document
 └── .gitignore                    ← Git exclusions
 ```
